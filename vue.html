@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="vue.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <title>Vue Practice</title>
+    </head>
+
+    <div id='app'>
+        <counter v-on:count='handleClick'></counter>
+        <p>Clicks = {{ clicks }}</p>
+    </div>
+    
+    <script src="https://unpkg.com/vue"></script>
+    <!-- <script src="vue.js"></script> -->
+    <script src="vue/app.vue"></script>
+
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+</body>
+</html>
